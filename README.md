@@ -27,7 +27,7 @@ pkg update && pkg upgrade
 pkg install python git -y
 git clone https://github.com/LK-HACKERS/Ip-tracking-black-hat.git
 cd Ip-tracking-black-hat
-python track.py
+python run.py
 ```
 
 Note: The main script file is track.py (or the filename containing the code)
